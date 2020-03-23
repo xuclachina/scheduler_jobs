@@ -1,0 +1,6 @@
+- hosts: all
+  vars:
+    test_var: "{{ demaxiya }}"
+  tasks:
+  - name: "test"
+    command: echo {{ demaxiya }}
